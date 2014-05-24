@@ -1,0 +1,94 @@
+﻿.news_left {
+    height:700px;
+    width:900px;
+    
+   margin:auto;
+   
+}
+.event_news_heading {
+     font-size:14px;
+        font-weight:300;
+         color:#6e6d70;
+        font-stretch:extra-condensed;
+}
+.news_box {
+     height:300px;
+    width:250px;
+    box-shadow:1px 1px 3px #888;
+   margin-left:20px;
+   margin-top:20px;
+    padding:10px;
+
+}
+tr  {
+    float:left;
+}
+.div_news_img {
+     height:150px;
+    width:250px;
+    box-shadow:1px 1px 3px #888;
+    float:left;
+   
+}
+.div_news_heading {
+     height:120px;
+    width:250px;
+    /*box-shadow:1px 1px 3px #888;*/
+    float:left;
+  
+    color:#333;
+    font-size:20px;
+
+   
+}
+.div_bottom {
+     height:30px;
+    width:246px;
+    box-shadow:1px 1px 3px #888;
+   float:left;
+  
+    color:#333;
+    font-size:16px;
+    padding:2px;
+
+    
+
+}
+.subscribe_btn {
+    float:right;
+    height:30px;
+    width:30px;
+   
+}
+#subscribe {
+    background-image:url("../img/subscibe.png");
+}
+#unsubscribe {
+    background-image:url("../img/unsubscibe.png");
+    margin-right:7px;
+}
+.v_spacer {
+    height:10px;
+    width:100%;
+    float:left;
+
+}
+.h_spacer {
+    height:10px;
+    width:300px;
+    float:left;
+}
+
+
+.event_date_time
+{
+    font-size : 13px;
+}
+
+
+.lbldatetimeofevent
+{
+    font-family: Arial,sans-serif;
+    font-size : 13px;
+    color : rgb(21,112,166);
+}

@@ -1,0 +1,116 @@
+﻿body 
+            {
+                padding : 0px;
+                margin : 0px;
+            }
+            
+            #div_head
+            {
+                height :80px; 
+                border-bottom : 2px Solid rgb(21,112,166) ;
+            }
+            
+            
+            #div_spacer1
+            {
+                width : 50px;
+                float : left;
+                height : 80px;
+            }
+
+#div_logo
+{
+    float : left; 
+    height : 75px;
+    margin-right: 0px;
+}
+
+#img_logo
+{
+    height : 75px;
+}
+
+
+
+#div_menu_message_bar
+{
+    height : 80px;
+    width : 1100px;
+    float : left ;
+}
+
+
+#div_admin_message
+{
+    height : 50px;
+}
+
+
+#div_welcome_Admin
+{
+    float : right ; 
+    height : 50px;
+    width : 200px;
+}
+
+
+#lnkbtnLogout
+{
+    text-decoration : none; 
+    color : rgb(21,112,166) ; 
+    font-size : 17px;
+}
+            
+
+
+
+#div_vertical_main_menu 
+{
+    height : 30px;
+    padding:0px;
+}
+
+    #div_vertical_main_menu ul li
+    {
+        display: inline ;
+        margin: 0px;
+        padding : 0px;
+    }
+
+#div_vertical_main_menu ul
+{
+    padding :0px;
+    margin-left : 130px;
+    list-style : none ; 
+    margin-top : 0px;
+
+}
+
+.a_vertical_menu
+{
+    text-decoration : none;
+    font-size : 15px;
+    display : block;
+    float : left ;
+    margin-left : 25px;
+    text-align :center;
+    padding-left : 10px; 
+    padding-right : 10px;
+    padding-top : 5px;
+    padding-bottom:5px;
+    -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease;
+    -o-transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top : -13px;
+    color : rgb(131,140,140);
+}
+
+    .a_vertical_menu:hover
+    {
+        background-color : rgb(21,112,166); 
+        color : rgb(255,255,255);
+    }
+
+
+

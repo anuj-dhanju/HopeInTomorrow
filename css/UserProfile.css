@@ -1,0 +1,117 @@
+﻿
+.div_user_info_contaner {
+    min-height:400px;
+    min-width:150px;
+    background-color:#24718A;
+    float:left;
+    border-radius:3px;
+
+}
+ .div_user_info_contaner a::selection {
+     color:#fff;
+
+}
+div_user_info_contaner h5 {
+    font-size:20px;
+   
+   
+}
+.div_user_info_internal_contaner {
+    min-height:450px;
+   width:180px;
+    background-color:#e6dfdf;
+    float:left;
+    border-radius:3px;
+    margin:5px;
+
+}
+#img_profile_pic {
+   height:100%;
+   width:100%;
+}
+
+#div_profile_pic
+{
+    float:left;
+    background:#fff;
+    margin-top:10px;
+    margin-left:10px;
+    height:100px;
+    width:100px;
+}
+
+#profile_pic_name {
+    
+   width:160px;
+  
+  margin-top:10px;
+  margin-left:10px;
+  float:left;
+   
+}
+.user_menu_box {
+    height:50px;
+   width:160px;
+   /*background:#fff;*/
+  margin-top:20px;
+ cursor:pointer;
+  margin-left:10px;
+   float:left;
+}
+.user_menu_box_icon_name {
+    padding:5px; float:left; margin-top:10px;
+}
+
+.div_update_title {
+    float:left; width:490px;overflow:hidden; margin-left:20px; 
+}
+.div_update_date {
+    float:left; width:185px; margin-left:20px;font-size:12px;
+}
+
+.div_user_updates_container {
+     min-height:400px;
+    min-width:500px;
+    background-color:#ccc;
+    float:left;
+    border-radius:3px;
+    /*background: -moz-linear-gradient(top, #fefefe 0%, #24718A 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%,#24718A));
+	background: -webkit-linear-gradient(top, #fefefe 0%,#24718A 100%); 
+	background: -o-linear-gradient(top, #fefefe 0%, #24718A 100%); 
+	background: -ms-linear-gradient(top, #fefefe 0%, #24718A 100%); 
+	background: linear-gradient(to bottom, #fefefe 0%,#24718A 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#24718A', GradientType=0 );*/
+
+
+}
+/*.div_user_updates_container_heading {
+  
+   
+    background-color:rgba(229, 221, 221, 0.66);
+    float:left;
+     margin-left:10px;
+    border-radius:1px;
+}*/
+.div_user_updates_news_container {
+    min-height:220px;
+   width:760px;
+    background-color: #ffffff;
+    float:left;
+     margin:5px 5px 5px 5px;
+    border-radius:3px;
+
+    
+}
+.div_user_profile_news_row{
+   min-height:30px;
+   width:740px;
+    background-color: #ffffff;
+    float:left;
+     margin:10px 10px 10px 10px;
+    /*border-radius:3px;*/
+   /*box-shadow:1px 1px 3px #888;*/
+   border-bottom:1px solid #ccc;
+    
+}
+

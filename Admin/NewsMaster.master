@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Admin/AdminMaster.master" AutoEventWireup="true" CodeFile="NewsMaster.aspx.cs" Inherits="Admin_News" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="content_body" Runat="Server">
+     <style type="text/css">
+         #a_vertical_menu5{
+    background-color : rgb(21,112,166); 
+    color : rgb(255,255,255);}
+        #div_middle                                  /* div middle contents  */ 
+            {
+                height: 800px;
+            }
+            
+            #div_menu_bar                              /* div Verticle menu bar  */ 
+            {
+                width : 250px;
+                border-right : 1px Solid rgb(200,200,200) ;
+                border-bottom : 1px Solid rgb(200,200,200) ;
+                border-left :  1px Solid rgb(200,200,200) ;
+                height : 500px;
+                float : left ; 
+                color : rgb(131,140,140);
+                margin : 0px;
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul
+            {
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul li 
+            {
+                list-style-type : none ;
+                height : 60px;
+                border-top : 1px Solid rgb(200,200,200); 
+                display : block;
+                cursor : pointer;
+                -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+                -moz-transition: background-color 0.5s ease, color 0.5s ease;
+                -o-transition: background-color 0.5s ease, color 0.5s ease;
+                transition: background-color 0.5s ease, color 0.5s ease;
+ 
+            }
+            
+            #li_3
+            {
+                 border-bottom : 1px Solid rgb(200,200,200); 
+            }
+            
+            #div_menu_bar ul li:hover 
+            {
+                background-color : rgb(21,112,166);
+                
+            }
+            
+            .a_menu 
+            {
+                text-decoration : none ;
+                color : rgb(131,140,140);
+                -webkit-transition: color 0.5s ease;
+                -moz-transition: color 0.5s ease;
+                -o-transition: color 0.5s ease;
+                transition: color 0.5s ease;
+                display : block ;
+                height:60px;
+                padding-left: 30px;
+                padding-top: 17px;  
+            }
+            
+            .a_menu:hover
+            {
+                color : rgb(255,255,255);
+            }                                                /* End Of Verticle menu bar  */ 
+          
+
+    </style>
+
+    <div id="div_main_contianer">
+               <!-- The main container--> 
+
+            
+               <div id="div_middle">
+                   <!-- The Middle Body --> 
+                
+
+                
+                   <div id="div_menu_bar">
+                       <!-- Admin Menu Bar --> 
+                    
+                       <ul>
+                           <li id="li_1"><a href="AdminHome.aspx" class="a_menu" id="a_menu_Home">Home </a></li>
+                           <li id="li_2"><a href="ViewAllNews.aspx" class="a_menu" id="a_menu_events"> News </a></li>
+                           <li id="li_3"><a href="newspost.aspx" class="a_menu" id="a_menu_createNewEvent"> Post Latest News </a></li>
+                       </ul>
+                   </div>
+                   <!-- End OF Admin Menu Bar --> 
+
+                   
+                    <asp:ContentPlaceHolder ID="contentChildBody" runat="server" >
+           
+                    </asp:ContentPlaceHolder>
+
+               </div>
+           </div>
+</asp:Content>
+

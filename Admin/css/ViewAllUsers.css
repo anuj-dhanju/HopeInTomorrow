@@ -1,0 +1,228 @@
+﻿
+            #div_middle                                  /* div middle contents  */ 
+            {
+                height: 800px;
+            }
+            
+            #div_menu_bar                              /* div Verticle menu bar  */ 
+            {
+                width : 250px;
+                border-right : 1px Solid rgb(200,200,200) ;
+                border-bottom : 1px Solid rgb(200,200,200) ;
+                border-left :  1px Solid rgb(200,200,200) ;
+                height : 500px;
+                float : left ; 
+                color : rgb(131,140,140);
+                margin : 0px;
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul
+            {
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul li 
+            {
+                list-style-type : none ;
+                height : 60px;
+                border-top : 1px Solid rgb(200,200,200); 
+                display : block;
+                cursor : pointer;
+                -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+                -moz-transition: background-color 0.5s ease, color 0.5s ease;
+                -o-transition: background-color 0.5s ease, color 0.5s ease;
+                transition: background-color 0.5s ease, color 0.5s ease;
+ 
+            }
+            
+            #li_4
+            {
+                 border-bottom : 1px Solid rgb(200,200,200); 
+            }
+            
+            #div_menu_bar ul li:hover 
+            {
+                background-color : rgb(21,112,166);
+                
+            }
+            
+            .a_menu 
+            {
+                text-decoration : none ;
+                color : rgb(131,140,140);
+                -webkit-transition: color 0.5s ease;
+                -moz-transition: color 0.5s ease;
+                -o-transition: color 0.5s ease;
+                transition: color 0.5s ease;
+                display : block ;
+                height:60px;
+                padding-left: 30px;
+                padding-top: 17px;  
+            }
+            
+            .a_menu:hover
+            {
+                color : rgb(255,255,255);
+            }                                                /* End Of Verticle menu bar  */ 
+            
+            
+            
+                                                            
+                                                                /*Blog Container*/
+            
+            #div_userlist_container , #div_volunteerlist_container , #div_bloggerlist_container
+            {
+                float : left ; 
+                width : 1000px;
+            }
+            
+            
+            #div_blog_title                             /* Div Blog title  */
+            {
+                height : 60px;
+                margin-left : 20px;
+                padding-left : 10px;
+                padding-top : 10px;
+                
+            }
+            
+            #txtBlogTitle
+            {
+                width : 990px;
+                height : 50px;
+                margin-top: 5px;
+                color : rgb(200,200,200);
+                font-size : 35px;
+                border : none;
+                outline : none ; 
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+                                                                    /*End Of Blog title*/
+            
+            
+             
+            #div_editting_tools                             /* Blog Editting Tools */
+            {
+                height : 30px;
+                margin-left : 20px;
+                padding-left : 10px;
+                border-top:1px Solid rgb(200,200,200);
+            }
+            
+            #ul_editting_tools 
+            {
+                padding : 0px;
+                margin : 3px;
+            }
+            
+            #ul_editting_tools li
+            {
+                list-style-type : none ; 
+                display : inline;
+                margin-left : 10px;
+            }
+             
+            .a_editting_tools
+            {
+                text-decoration : none ;
+                color : rgb(0,0,0);   
+                display:block ;
+                float:left ;
+                margin-left : 20px;  
+                font-size : 20px;              
+                font-family: Ariel , sans-serif;
+                text-align : center;
+                width : 30px;
+            }
+            
+            #a_Bold
+            {
+                font-weight: bold;
+            }
+            
+            #a_Italic
+            {
+                font-style:  italic;
+            }
+            
+            #a_Underline
+            {
+                text-decoration : underline; 
+            }
+            
+            .a_editting_tools:hover
+            {
+                background-color: rgb(200,200,200);
+            }
+                                                           /*End Of Editting Tools*/
+                                                           
+                                                           
+            
+            
+            #div_blog_body                               /*Div Blog Body*/
+            {
+                height : 485px;
+                margin-left : 20px;
+                padding-left : 10px;
+                padding-top : 10px;
+                padding-right : 10px;
+                overflow-y : auto;
+                
+                border : 1px solid rgb(200,200,200);
+                outline : none; 
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+                                                                /*End Of Blog Body*/
+                                                                
+                                                                
+                                                                
+                                                                /*Blog Button Bar "Post" "Cancle" */
+                                                                
+             #div_button_bar
+             {
+                 height : 50px;
+                 margin-left : 20px;
+             }
+             
+             
+             #div_btnCancel, #div_btnPost , #div_btnSave
+             { 
+                 height : 35px;
+                 width : 105px;
+                 float : right ;
+                 margin-top : 5px;
+             }
+             
+             #div_btnPost , #div_btnSave
+             {
+                 margin-right : 30px;
+             }
+             
+             #btnCancel:hover , #btnPost:hover ,#btnSave:hover
+             {
+                 background-color : rgb(21,112,166);
+             }
+
+#btnCancel, #btnPost , #btnSave
+{
+    height : 35px;
+    width : 105px;
+    background-color : rgb(200,200,200);
+    color : rgb(255,255,255);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    cursor : pointer ; 
+    border: none; 
+    outline:none;
+}
+
+#a_vertical_menu2
+{
+    background-color : rgb(21,112,166); 
+    color : rgb(255,255,255);
+}

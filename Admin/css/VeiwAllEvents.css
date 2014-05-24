@@ -1,0 +1,111 @@
+﻿
+    
+          
+
+#div_event_list_container                                      /* The event List container */
+{
+    float : left ; 
+    width : 1000px;
+    margin-top : 15px;
+    height : 500px;
+    overflow-y : auto;
+    overflow-x : hidden;  
+}                                                              /* End of The event List Container */             
+
+
+                                                               /* The Body of the event list to be shown */
+
+.div_event_body
+{
+    height : 80px;
+    background-color : rgba(230,230,230,1);
+    -webkit-transition : background-color 0.5s ease; 
+    -moz-transition : background-color 0.5s ease; 
+    -o-transition : background-color 0.5s ease;
+    transition : background-color 0.5s ease; 
+
+}
+
+    .div_event_body:hover
+    {
+        background-color : rgba(200,200,200,1);
+    }                                                                /* End OF The Body of the event list to be shown */
+
+
+.div_event_title                                                     /* event title  */
+{
+    width : 400px;
+    float : left ;   
+}                                                                     /* end of event Title */
+
+.div_event_title_text
+{
+    width : 400px;
+    padding-top : 15px;
+    font-family : Arial ; 
+    font-size : 17px;
+    overflow-y : hidden ; 
+    overflow-x : hidden ;
+    padding-left : 20px;
+    float:left;
+}
+                                                                      /* Options : View Edit & Delete */
+.div_event_options, .div_event_place_value , .div_event_datetime_value
+{
+     font-family : Arial ; 
+     font-size : 12px;
+     margin-top : 10px;
+     overflow-y : hidden;
+     height : 30px;
+
+}                                 
+
+a
+{
+    text-decoration : none ;
+    color : rgba(255, 106, 0,1);
+}                                                                     /*End Of Options : View Edit & Delete */
+
+
+.div_event_place, .div_event_datetime                                                 /* div Event Place & date time  */
+{
+    width : 200px;
+    float : left ; 
+}
+
+.div_event_place_text, .div_event_datetime_text
+{
+    width : 180px;
+    padding-top : 15px;
+    font-family : Arial ; 
+    font-size : 17px;
+    padding-left : 20px;
+    float:left;
+    text-align:center;
+
+}
+
+.lbl_event_place, .lbl_event_datetime
+{
+    color : rgba(255, 106, 0,1);
+}
+
+.div_event_views                                                      /* Page Views & Comment bar */
+{   
+    height : 80px;
+    background-color : rgba(0,230,230,1);
+    width : 150px;
+    float : right;
+    text-align :center;
+}                                                                         /* End Of Page Views & Comment bar */
+
+
+.div_event_post_time
+{
+    color : rgba(255,255,255,1);
+    font-family : Arial;
+    font-size : 15px;
+    height : 15px;
+    margin-top : 50px;
+}
+

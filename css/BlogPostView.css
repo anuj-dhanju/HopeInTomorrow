@@ -1,0 +1,256 @@
+﻿
+            
+            
+            #div_middle                                  /* div middle contents  */ 
+            {
+                width : 1000px;
+                margin-left : auto; 
+                margin-right : auto;
+                margin-top : 20px;
+            }
+                                             
+                                                                /*Blog Container*/
+            
+            #div_blog_container
+            {
+                float : left ; 
+                width : 1000px;
+                
+            }
+            
+            
+            #div_blog_title                             /* Div Blog title  */
+            {
+                height : 50px;
+                margin-left : 20px;
+                padding-left : 10px;
+                padding-top : 10px;
+                color : rgb(200,200,200);
+                font-size : 35px;
+                border : none;
+                outline : none ; 
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+            #txtBlogTitle
+            {
+                width : 990px;
+                height : 50px;
+                margin-top: 5px;
+                color : rgb(200,200,200);
+                font-size : 35px;
+                border : none;
+                outline : none ; 
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+                overflow : hidden;
+            }
+            
+                                                                    /*End Of Blog title*/
+            
+            
+             
+          
+                                                           
+           
+            #div_blog_date_time                           /* Blod Date & Time */
+            {
+                margin-left : 20px;
+                padding-left : 10px;
+                height : 25px;
+                color : rgb(21,112,166);
+                font-family: Arial,sans-serif;
+            }                                                    
+            
+            
+            #div_blog_body                               /*Div Blog Body*/
+            {
+                
+                margin-left : 10px;
+                padding-left : 30px;
+                padding-top : 10px;
+                padding-right : 30px;
+                padding-bottom : 10px;
+                border : 1px solid rgb(200,200,200);
+                border-radius: 10px;
+                outline : none; 
+                text-align :justify;
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+                                                                /*End Of Blog Body*/
+
+
+
+                                                           
+                                                                 /*Blog Button Bar "Post" "Cancle" */
+                                                                
+             #div_blog_info_bar
+             {
+                 height : 50px;
+                 
+                 margin-left : 20px;
+             }
+
+             
+            #div_poster_name_time                             /* Div Posted By and Time of post  */
+            {
+                float:left ; 
+                margin-left : 10px;
+                padding-top : 10px;
+                font-family: Arial,sans-serif;
+                color : rgb(200,200,200);
+            }
+
+            #spn_posterName
+            {
+                font-family: Arial,sans-serif;
+                color : rgb(21,112,166);
+            }
+
+            #spn_timeOfPost
+            {
+                font-family: Arial,sans-serif;
+                color : rgb(21,112,166);
+            }
+             
+
+                                                                /* Div Comment Main */
+                                                              
+
+
+
+
+#div_comment_main       
+{                                          
+    margin-left: 10px;
+    padding-left : 30px;
+    border : 1px solid rgb(200,200,200);
+    border-radius : 10px;
+    padding-bottom : 20px;
+}
+
+
+#txtcomment
+{
+    resize:none;
+}
+
+#div_button_bar
+{
+    width : 579px;
+    height : 35px;
+    margin-bottom : 20px;
+}
+
+#btnPostComment
+{
+    float : right;
+    height: 35px;
+    width: 105px;
+    background-color: rgb(200,200,200);
+    color: rgb(255,255,255);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+    #btnPostComment:hover
+    {
+        background-color :rgb(21,112,166) ;
+    }
+
+                                                                /* End Of Div Comment Main  */
+
+#div_commnet_main
+{
+    padding-top:20px;
+    padding-bottom : 20px;
+}
+.div_blog_comment_container
+{
+    background:rgb(240,240,240);
+    overflow : hidden;
+    margin-top : 5px;
+}
+
+.div_blog_commenter_info
+{
+    width : 170px;
+    height : 70px;
+    float : left;
+    overflow : hidden;
+}
+
+.div_commenter_pic
+{
+    width : 50px;
+    margin-top : 10px;
+    margin-left : 10px;
+    float:left;
+}
+
+.img_commenter_pic
+{
+    width : 50px;
+    height : 50px;
+    margin:auto;
+}
+
+.div_commenter_name_date
+{
+    float:left;
+    margin-top : 10px;
+    margin-left : 5px;
+    width : 100px;
+    overflow:hidden;
+    
+}
+
+.lblCommenterName
+{
+    font-size : 12px;
+    float : left;
+    margin-top : 10px;
+}
+
+.lblCommentDate
+{
+    font-size : 12px;
+    margin-top: 10px;
+}
+
+.div_blog_comment_body
+{
+    width:680px;
+    padding:10px;
+    float:left;
+}
+
+.div_blog_comment_text
+{
+   
+}
+
+.div_blog_comment_options
+{
+    margin-bottom : 0px;
+    height : 15px;
+    bottom : 0px;
+}
+
+.lnkbtnDelete
+{
+    text-decoration : none ;
+    color : rgba(255, 106, 0,1);
+    float : right;
+    margin-right : 10px;
+    font-size : 12px;
+}
+
+
+                                                                            
+                                                                /* End Of Middle div  */

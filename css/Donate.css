@@ -1,0 +1,190 @@
+﻿#div_wrapper
+{
+		width:100%;
+		margin-top:30px;
+	
+}
+#div_wrapper_inner
+{
+	width:980px;
+	margin:0 auto;
+	margin-top:10px;
+	
+}
+
+#div_form
+{
+	
+	width:68%;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+#div_heading_text
+{ 
+width:100%;
+
+margin-left:10px;
+color:#6e6d70;
+padding-bottom:10px;
+}
+#div_regular_text
+{
+	width:90%;
+	text-align:justify;
+	margin-left:10px;
+	font-style:normal;
+	font-size:14px;
+    padding-bottom:15px;
+}
+	
+#div_head
+{
+	font-size:12px;
+	
+	width:90%;
+	padding-bottom:0px;
+	border-bottom:1px solid #E6E6E6;
+	margin-left:10px;
+	color:#c8c8c8;
+    padding-bottom:5px;
+	}
+
+.div_btn1
+{
+	float:left;
+	width:90%;
+	margin-left:10px;
+}
+.btn
+{
+	float:left;
+    
+	margin-top:10px;
+	
+	
+	padding:15px;
+	
+	
+}
+    .btn:hover {
+        color:blue;
+    }
+
+#amount
+{
+	float:left;
+	width:90%;
+}
+#div_donation
+{
+	float:left;
+	margin-top:30px;
+	margin-left:15px;
+}
+#div_ammount
+{
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+#div_radio
+{
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+#div_user_info
+{ 
+width:90%;
+float:left;
+margin-top:30px;
+margin-left:10px;
+border-bottom:1px solid #E6E6E6;
+color:#c8c8c8;
+}
+#info_container
+{
+	width:90%;
+	margin-top:10px;
+	margin-left:15px;
+	float:left;
+}
+
+.textfield1
+{
+	margin-left:20px;
+	height:25px;
+	width:200px;
+	border-radius:5px;
+}
+
+#info_container1
+{
+	float:left;
+	width:90%;
+	
+	margin-top:10px;
+	margin-left:15px;
+
+		}
+.btn_donate
+{
+	float:left;
+	text-decoration:none;
+	margin-left:15px;
+	margin-top:10px;
+	background:#0ABFBC;
+	text-align:center;
+	color:#fff;
+	padding:20px;
+	padding-left:40px;
+	padding-right:40px;
+	font-size:24px;
+	
+
+}
+#div_donate_button
+{
+	border-bottom:1px solid #E6E6E6;
+	width:90%;
+	height:130px;
+	float:left;
+}
+#div_right_container
+{
+	width: 200px;
+    float: right;
+    margin-top:20px;
+}
+#div_image_container
+{
+	width:100%;
+	margin-top:100px;
+	height:30px;
+	height:200px;
+	float:right;
+}
+#img_content
+{
+	float:right;
+	width:100%;
+	text-align:justify;
+	font-size:13px;
+	
+}
+#join_btn
+{
+	float:left;
+    margin-top:5px;
+	width:100%;
+}
+.btn_join
+{
+	padding:10px;
+	text-decoration:none;
+	background:#0ABFBC;
+	float:right;
+	color:#FFF;
+}

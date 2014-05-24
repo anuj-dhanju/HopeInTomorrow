@@ -1,0 +1,243 @@
+﻿
+   #div_menu_bar
+            {
+                width : 250px;
+                border-right : 1px Solid rgb(200,200,200) ;
+                border-bottom : 1px Solid rgb(200,200,200) ;
+                border-left :  1px Solid rgb(200,200,200) ;
+                height : 500px;
+                float : left ; 
+                color : rgb(131,140,140);
+                margin : 0px;
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul
+            {
+                padding : 0px;
+            }
+            
+            #div_menu_bar ul li 
+            {
+                list-style-type : none ;
+                height : 60px;
+                border-top : 1px Solid rgb(200,200,200); 
+                display : block;
+                cursor : pointer;
+                -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+                -moz-transition: background-color 0.5s ease, color 0.5s ease;
+                -o-transition: background-color 0.5s ease, color 0.5s ease;
+                transition: background-color 0.5s ease, color 0.5s ease;
+                
+                
+            }
+            
+            #li_7
+            {
+                 border-bottom : 1px Solid rgb(200,200,200); 
+            }
+            
+            #div_menu_bar ul li:hover 
+            {
+                background-color : rgb(21,112,166);
+                
+            }
+            
+            .a_menu 
+            {
+                text-decoration : none ;
+                color : rgb(131,140,140);
+                 -webkit-transition: color 0.5s ease;
+                -moz-transition: color 0.5s ease;
+                -o-transition: color 0.5s ease;
+                transition: color 0.5s ease;
+                display : block ;
+                height:60px;
+                padding-left: 30px;
+                padding-top: 17px;  
+            }
+            
+            .a_menu:hover
+            {
+                color : rgb(255,255,255);
+            }
+
+
+
+#div_main_imageUpload
+{
+    float:left;
+    width: 1000px;
+    padding-left : 40px;
+    padding-top : 30px;
+}
+
+
+
+#div_addnewimage
+{
+     margin-top : 10px;
+     height:  30px;
+     margin-left : 10px;
+}
+
+#spn_addnewpic_text
+{
+    font-size : 20px;
+    color : rgb(200,200,200);
+}
+
+#div_hr
+{
+    margin-left : 10px;
+    margin-bottom : 10px;
+    margin-top:10px;
+    border : 1px solid rgb(200,200,200);
+}
+
+
+.div_pnl
+{
+    float:left; 
+    height : 220px;
+    width : 300px;
+    border : 1px solid rgb(200,200,200);
+    margin-left : 10px;
+    margin-top : 10px;
+
+}
+
+
+.div_pnlEdit
+{
+    float:left;
+    margin-left : 2px;
+    width:145px;
+    background-color : rgb(200,200,200);
+    height : 43px;
+    text-align : center;
+    cursor : pointer;
+}
+
+.div_pnlDelete
+{
+    float:right;
+    margin-right : 2px;
+    width : 145px;
+    background-color : rgb(200,200,200);
+    height : 43px;
+    cursor : pointer;
+    text-align : center;
+    
+}
+
+    .div_pnlDelete:hover, .div_pnlEdit:hover
+    {
+        
+    }
+
+
+
+.file_upload
+{
+    display:none;
+}
+
+
+.div_pnlinfo
+{
+    position:absolute;
+    height : 170px;
+    width: 300px; 
+    display:none;
+    margin-top : -175px;
+    background-color : rgba(255,255,255,.5);
+    -webkit-transition: display 0.5s ease;
+    -moz-transition: display 0.5s ease;
+    -o-transition: display 0.5s ease;
+    transition: display 0.5s ease;
+}
+
+.div_deleteWarning
+{
+    position:absolute;
+    height : 170px;
+    width: 300px; 
+    display:none;
+    margin-top : -175px;
+    background-color:rgba(0,0,0,.5);
+    color : rgb(255,255,255);
+}
+
+
+.div_deleteWarningMessage 
+{
+    margin-top:30px;
+}
+
+.lblDeleteWarning 
+{
+    margin-left : 10px;
+}
+
+.btnDelete 
+{
+    float : left;
+    margin-left : 10px;
+}
+
+
+.div_editImage 
+{
+    position:absolute;
+    height : 170px;
+    width: 300px; 
+    display:none;
+    margin-top : -175px;
+    background-color:rgba(0,0,0,.5);
+    color : rgb(255,255,255);
+}
+
+
+.txt_imgInfo 
+{
+    margin-top : 10px;
+    margin-left: 10px;
+    width : 280px;
+}
+
+.imgUpload 
+{
+    margin-top : 10px;
+    margin-left : 10px;
+}
+
+.divEditPanelButtonHolder 
+{
+    margin-top : 10px;
+}
+
+.btnSave 
+{
+    float : left;
+    margin-left : 10px;
+}
+
+.div_editImageCancel_button , .div_deleteWarningCancel_button
+{
+    float:right;
+    margin-right: 10px;
+}
+
+    .div_editImageCancel_button:hover , .div_deleteWarningCancel_button:hover
+    {
+        cursor:pointer;
+        
+    }
+
+
+#a_vertical_menu6
+{
+    background-color : rgb(21,112,166); 
+    color : rgb(255,255,255);
+}

@@ -1,0 +1,221 @@
+﻿
+
+#div_main_container
+{
+    width:1000px;
+     background-color:#236742;
+
+
+}            
+
+
+            #div_middle   , .div_middle                                /* div middle contents  */ 
+            {
+                width : 960px;
+                margin-left : auto; 
+                margin-right : auto;
+                margin-top : 20px;
+              
+                border-radius: 10px;
+                padding-bottom : 30px;
+            }
+                                             
+                                                                /*Blog Container*/
+            
+            #div_blog_container   , .div_blog_container
+            {
+                float : left ; 
+                width : 800px;
+                height : 550px;
+                border:1px solid rgb(200,200,200);
+                margin-top : 30px;
+                border-radius: 10px;
+                padding-bottom:10px;
+        
+            }
+
+          
+
+#div_blog_container:before
+{
+   content:"";
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   margin-left:782px;
+   margin-top: -40px;
+   background-image:url("/HitFromDeepak/img/haiku-48 (1).png")
+  
+}
+
+
+          
+               
+                                                                      /*Anuj stylesheet*/
+.blog_cont {
+    width:960px;
+    float:left;
+}
+
+.div_img_cont 
+{
+    width:90px;
+    height:90px;
+    border-radius:10px;
+    border:1px solid rgb(200,200,200);
+    float:left;
+    margin-top : 30px;
+
+}
+
+.img_pp
+{
+    width:90px;
+    height:90px;
+    border-radius:10px;
+}
+
+.div_v_spacer {
+    width:20px;
+    float:left;
+    height:120px;
+}
+#left-triangle {
+   width: 0;
+   height: 0;
+   border-right: 100px solid orange;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+}
+
+
+                                                                  /*end anuj stylesheet*/        
+
+#ContentPlaceHolder1_dlBlog
+{
+    margin:auto;
+}
+            
+            #div_blog_title, .div_blog_title                          /* Div Blog title  */
+            {
+                height : 50px;
+                margin-left : 20px;
+                padding-left : 10px;
+                padding-top : 10px;
+                color : rgb(200,200,200);
+                font-size : 35px;
+                border : none;
+                outline : none ; 
+                overflow:hidden;
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+            #txtBlogTitle
+            {
+                width : 990px;
+                height : 50px;
+                margin-top: 5px;
+                color : rgb(200,200,200);
+                font-size : 35px;
+                border : none;
+                outline : none ; 
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+                overflow : hidden;
+            }
+            
+                                                                    /*End Of Blog title*/
+            
+            
+             
+          
+                                                           
+           
+            #div_blog_date_time  , .div_blog_date_time                         /* Blod Date & Time */
+            {
+                margin-left : 20px;
+                padding-left : 10px;
+                height : 25px;
+                color : rgb(21,112,166);
+                font-family: Arial,sans-serif;
+            }                                                    
+            
+            
+            #div_blog_body          , .div_blog_body                     /*Div Blog Body*/
+            {
+                
+                margin-left : 10px;
+                padding-left : 20px;
+                padding-top : 10px;
+                padding-right : 20px;
+                padding-bottom : 10px;
+                overflow: hidden;
+                height : 400px;
+                outline : none; 
+                text-align :justify;
+                font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+            }
+            
+                                                                /*End Of Blog Body*/
+
+                                                         /* Options : read more */
+.div_blog_options
+{
+     font-family : Arial ; 
+     font-size : 12px;
+     margin-top : 10px;
+     text-align:right;
+     padding-right : 30px;
+     height : 12px;
+     background : rgb(200,200,200);
+     padding-top : 8px;
+     padding-bottom : 10px;
+     padding-left : 30px;
+}                                 
+
+.lnkbtn_blog_readmore
+{
+    text-decoration : none ;
+    color : rgba(255, 106, 0,1);
+}
+
+
+.lblPosterName , .lblCommentCount , .lblViewCount
+{
+    float : left ; 
+    color : rgb(21,112,166);
+}
+
+.lblPosterNameText, .lblCommentCountText, .lblViewCountText
+{
+    float:left ;
+}
+
+.lblPosterName
+{
+    margin-left : 5px;
+}
+
+
+.lblCommentCountText
+{
+    margin-left : 20px;
+}
+
+.lblViewCount , .lblCommentCount
+{
+    margin-left : 5px;
+}
+
+.lblViewCountText
+{
+    margin-left : 10px;
+}
+
+
+
+                                                         /*End Of Options : read more */  
+                             
+  
+                                                                      
+                                                                      /*Anuj stylesheet*/
+                                                                  /*end anuj stylesheet*/        

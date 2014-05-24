@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/UserMasterPage.master"  CodeFile="ProfileMasterPage.master.cs" Inherits="ProfileMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" ClientIDMode="Static">
+    <link href="css/UserProfile.css" rel="stylesheet" />
+
+    <script type="text/javascript" > 
+
+
+        $(function () {
+
+            $("#div_menu_writeblog").click(function () {
+
+                window.open("BlogWriter.aspx","_self");
+                
+            });
+
+        });
+
+    </script>
+
+
+    <div id="lower_middle_main">
+    	<div id="lower_middle_cont">
+            <div style="height:20px;width:100%"></div>
+
+           
+            <div class="div_user_info_contaner">
+                <div class="div_user_info_internal_contaner"">
+                 
+                <div id="div_profile_pic" runat="server" >
+                    <img id="img_profile_pic" runat="server"  />
+                </div>
+
+                
+                <div style="height:20px;width:100%">
+
+                </div>
+                <a href="UserProfileHome.aspx">
+                <div id="profile_pic_name">
+                   <h5><asp:Label ID="UserName" runat="server" Text="User Name"></asp:Label></h5>
+                </div>
+                </a>
+                 <div style="height:20px;width:100%"></div>
+                <a href="UserProfileEdit.aspx">
+                <div class="user_menu_box">
+                    <img style=" float:left;" src="img/user-48.png" />
+                    <span class="user_menu_box_icon_name">Edit Profile</span>
+                </div>
+                </a>
+                 <div style="height:20px;width:100%"></div>
+
+                <div class="user_menu_box" id="div_menu_writeblog">
+                     <img style=" float:left;"  src="img/google-blog-search-48 (1).png" />
+                    <span class="user_menu_box_icon_name">Write Blog</span>
+
+                </div>
+                 
+                <div style="height:20px;width:100%"></div>
+                <a href="UserProfileSuggestion.aspx">
+                <div class="user_menu_box">
+                     <img  style=" float:left;" src="img/forward-48.png" />
+                    <span class="user_menu_box_icon_name">Suggestion</span>
+
+                </div>
+                </a>
+                <div style="height:20px;width:100%"></div>
+                <div class="user_menu_box">
+                    <img style=" float:left;"  src="img/inbox-5-48.png" />
+                    <span class="user_menu_box_icon_name">Inbox</span>
+
+                </div>
+                    </div>
+
+
+
+
+            </div>
+             
+        <div style="height:400px;width:20px; float:left"></div>
+        <div class="div_user_updates_container">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        
+        </asp:ContentPlaceHolder>
+        </div>
+                 
+    </div>
+    </div>
+   
+            
+
+</asp:Content>
+
+
+   
+   
+

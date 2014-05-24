@@ -1,0 +1,52 @@
+﻿.uper {
+    height:80px;
+    width:100%;
+    float:left;
+    padding-top:5px;
+    padding-bottom:10px;
+   
+}
+.pai_div {
+    height:420px;
+    width:420px;
+    float:left;
+    
+
+}
+.pai_inner {
+ 
+    float:left;
+     height:160px;
+    width:160px;
+    margin-left:95px;
+    margin-top:95px;
+    border:1px solid #ccc;
+    border-radius:120px; 
+    padding-top:50px;  
+    padding-left:50px;
+   
+   
+
+}
+.pai_outer {
+    background:url(../img/finalUtilization.png);
+
+     height:400px;
+    width:400px;
+    position:absolute;
+}
+.left_part {
+    float:left;
+    min-height:500px;
+    width:555px;
+    margin-top:22px;
+ 
+}
+
+.First_part {
+    float:left;
+    min-height:70px;
+    width:100%;
+    margin-top:10px;
+   
+}

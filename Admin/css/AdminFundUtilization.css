@@ -1,0 +1,19 @@
+﻿.container {
+    height:500px;
+    width:800px;
+   
+   
+   margin:auto;
+}
+.text{
+    text-align:justify;
+    color: #244b73;
+}
+.btn {
+    background-color:#ccc;
+}
+    .btn:hover {
+        color:white;
+        background-color: #244b73;
+    }
+

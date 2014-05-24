@@ -1,0 +1,83 @@
+﻿
+          
+
+#div_bloglist_container                                      /* The Blog List container */
+{
+    float : left ; 
+    width : 1000px;
+    margin-top : 15px;
+    height : 500px;
+    overflow-y : auto;
+    overflow-x : hidden;  
+}                                                              /* End of The Blog List Container */             
+
+                                                                
+                                                               /* The Body of the blog list to be shown */
+
+.div_blog_body
+{
+    min-height:80px;
+    background-color : rgba(230,230,230,1);
+    -webkit-transition : background-color 0.5s ease; 
+    -moz-transition : background-color 0.5s ease; 
+    -o-transition : background-color 0.5s ease;
+    transition : background-color 0.5s ease; 
+
+}
+
+    .div_blog_body:hover
+    {
+        background-color : rgba(200,200,200,1);
+    }                                                                /* End OF The Body of the blog list to be shown */
+
+
+.div_blog_title                                                     /* Blog title  */
+{
+   
+    width : 730px;
+    float : left ;
+    padding-left : 20px;
+    padding-top : 15px;
+    font-family : Arial ; 
+    font-size : 17px;
+    overflow-y : hidden ; 
+    overflow-x : hidden ; 
+}  
+                                                   /* Blog title  */
+                                                                  /* end of blog Title */
+                                                                      
+                                                                      /* Options : View Edit & Delete */
+.div_blog_options
+{
+     font-family : Arial ; 
+     font-size : 12px;
+     margin-top : 10px;
+}                                 
+
+a
+{
+    text-decoration : none ;
+    color : rgba(255, 106, 0,1);
+}                                                                     /*End Of Options : View Edit & Delete */  
+
+  
+
+.div_blog_views                                                      /* Page Views & Comment bar */
+{   
+    height : 80px;
+    background-color : rgba(0,230,230,1);
+    width : 150px;
+    float : right;
+    text-align :center;
+}                                                                         /* End Of Page Views & Comment bar */
+
+
+.div_blog_post_time
+{
+    color : rgba(255,255,255,1);
+    font-family : Arial;
+    font-size : 15px;
+    height : 15px;
+    margin-top : 50px;
+}
+
